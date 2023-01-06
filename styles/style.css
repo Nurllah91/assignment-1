@@ -97,3 +97,79 @@ button.contact-btn {
 .pre-year-content {
     margin-top: 280px;
 }
+
+
+
+/* plan section */
+
+.plan-container{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-container{
+    max-width: 1130px;
+    margin: auto;
+    
+    height: 300px;
+}
+.sec-heading {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.p-heading {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plans {
+    text-align: center;
+}
+
+.plans span{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(49, 47, 47);
+}
+
+
+/* contact-section styles */
+
+
+
+.contact-sec-container{
+    background: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1150px;
+    height: 300px;
+    margin: auto;
+}
+
+.contact-content{
+    max-width: 450px;
+    padding: 60px;
+}
+
+.contact-heading {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+h3.contact-heading {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+.call-btn {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    background: #16ede3;
+}
