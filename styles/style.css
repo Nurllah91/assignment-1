@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* body styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+}
+
+section{
+    margin-top: 130px;
+
+}
+
+
+/* header styles */
+
+
+.header-section{
+  height: 800px;
+}
+.background-img {
+    position: absolute;
+    transform: rotateY(180deg);
+
+}
+
+.header-content {position: relative;}
+.heading {
+    max-width: 550px;
+    height: 230px;
+    font-size: 65px;
+    padding-top: 225px;
+    padding-left: 225px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.header-description{
+    max-width: 500px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 230px;
+    text-align: left;
+}
+button.contact-btn {
+    margin-left: 250px;
+    width: 160px;
+    height: 65px;
+    margin-top: 20px;
+    background: orangered;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* previous section styles */
+
+
+.container{
+    display: flex;
+    max-width: 1100px;
+   place-content: center;
+   margin: auto;
+}
+
+.section-title {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.list li {
+    list-style: none;
+}
+
+.list li i {
+    color: #16ed8a;
+}
+.pre-year-content {
+    margin-top: 280px;
+}
